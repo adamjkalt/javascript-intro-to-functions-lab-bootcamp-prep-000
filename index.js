@@ -23,6 +23,6 @@ function sayHiToGrandma(string) {
 } else if (toUpperCase) {
     greeting = "YES INDEED!";
 } else {
-    greeting = "Good evening";
+    greeting = "I love you too";
 }
 }
