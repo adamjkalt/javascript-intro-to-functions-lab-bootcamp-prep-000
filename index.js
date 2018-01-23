@@ -19,10 +19,10 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   
   if (logWhisper) {
-    greeting = "I can\'t hear you!";
+    return "I can\'t hear you!";
 } else if (logShout) {
-    greeting = "YES INDEED!";
+    return "YES INDEED!";
 } else {
-    greeting = "I love you too";
+    return "I love you too";
 }
 }
