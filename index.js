@@ -21,7 +21,7 @@ function sayHiToGrandma(string) {
   if (toLowerCase) {
     greeting = "I can\'t hear you!";
 } else if (toUpperCase) {
-    greeting = "Good day";
+    greeting = "YES INDEED!";
 } else {
     greeting = "Good evening";
 }
