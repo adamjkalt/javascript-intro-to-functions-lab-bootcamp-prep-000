@@ -17,12 +17,11 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
- // string == "Hey"
   if (whisper(string) === (string)) {
     return "I can't hear you!";
 } else if (shout(string) === (string)) {
     return "YES INDEED!";
-} else if (string === "I love you, Grandma.") {
+} else  {
     return "I love you, too.";
 }
 }
