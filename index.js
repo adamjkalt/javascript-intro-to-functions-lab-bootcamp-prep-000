@@ -20,7 +20,7 @@ function sayHiToGrandma(string) {
   // string == "Hi"
   // whisper(string) == "hi"
   
-  // string == whisper(string) //=>true
+  // string == whisper(string) //=>
   if (whisper(string) ) {
     return "I can\'t hear you!";
 } else if (shout(string)) {
