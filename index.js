@@ -18,10 +18,10 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   
-  if (logWhisper) {
+  if (logShout) {
+    return "YES INDEED";
+} else if (logWhisper) {
     return "I can\'t hear you!";
-} else if (logShout) {
-    return "YES INDEED!";
 } else {
     return "I love you too";
 }
