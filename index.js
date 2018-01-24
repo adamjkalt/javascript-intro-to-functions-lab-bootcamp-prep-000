@@ -17,7 +17,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  // string == "hi"
+  // string == "Hi"
   // whisper(string) == "hi"
   
   // string == whisper(string) //=>true
